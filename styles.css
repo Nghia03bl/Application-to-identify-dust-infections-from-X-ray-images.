@@ -3,6 +3,19 @@
   padding:0px;
 }
 
+body {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.css-1v7hqsl {
+  max-width: 1200px;
+  margin: auto;
+}
+.css-1kz7hm7, .css-16ptfca button {
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+}
 p {
   display: block;
   width: 400px;
