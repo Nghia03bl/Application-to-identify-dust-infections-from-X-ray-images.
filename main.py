@@ -5,31 +5,6 @@ import numpy as np
 
 IMG_SIZE = 227
 
-st.markdown(
-    """
-    <style>
-        /* Thay đổi kiểu chữ và màu chữ */
-        body {
-            font-family: 'Arial', sans-serif;
-            color: #333;
-        }
-
-        /* Thay đổi canh lề của trang web */
-        .css-1v7hqsl {
-            max-width: 1200px;
-            margin: auto;
-        }
-
-        /* Thay đổi kiểu chữ và màu chữ cho tiêu đề và nút */
-        .css-1kz7hm7, .css-16ptfca button {
-            font-family: 'Arial', sans-serif;
-            color: #fff; /* Màu chữ trắng */
-        }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
 class_list = {'0': 'Bình thường', '1': 'Viêm Phổi'}
 
 st.title('Dự đoán viêm phổi dựa trên hình ảnh X-quang ngực')
